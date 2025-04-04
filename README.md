@@ -1,11 +1,25 @@
-This repository provides an extensive collection of shellcodes generated using **MSFvenom**. Shellcodes are categorized by operating system (Windows, Linux, macOS, Android), architecture (x86, x64, ARM, etc.), and payload type (reverse, bind, staged, stageless, etc.). The goal is to serve as a centralized reference for penetration testers, malware analysts, reverse engineers, and cybersecurity researchers.
+**README Description:**  
+This repository contains a collection of **basic, standalone shellcodes** generated with **MSFvenom**. Each payload performs a simple, predefined action such as displaying a message box, launching calculator, or opening a command prompt – with **no further modification required**.
+
+These shellcodes are useful for:
+- Testing injection techniques  
+- Shellcode runners and loaders  
+- AV evasion experiments  
+- Malware behavior analysis  
+- Learning purposes
+
+**Included examples:**
+- Show MessageBox (Windows)  
+- Launch `calc.exe` / `notepad.exe`  
+- Spawn `cmd.exe`  
+- Basic `exec` payloads (Linux)
 
 **Features:**
-- All major payload types: `meterpreter`, `shell`, `exec`, `download_exec`, and more  
-- Both staged and stageless variants  
-- Well-structured directories by OS and architecture  
-- Optional MSFvenom command used for generation included  
-- Regular updates based on new MSFvenom releases  
+- Clean and minimal  
+- No staged payloads or reverse shells  
+- MSFvenom command provided for each  
+- Categorized by OS and architecture  
+- Plug-and-play compatible
 
 **Disclaimer:**  
-For **educational and research purposes only**. Use only in legal, controlled environments with proper authorization.
+For **educational and testing purposes only**. Do not use in unauthorized environments.
