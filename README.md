@@ -1,25 +1,55 @@
-**README Description:**  
-This repository contains a collection of **basic, standalone shellcodes** generated with **MSFvenom**. Each payload performs a simple, predefined action such as displaying a message box, launching calculator, or opening a command prompt – with **no further modification required**.
+# MSFvenom Shellcode Examples (MessageBox & Calc)
 
-These shellcodes are useful for:
-- Testing injection techniques  
-- Shellcode runners and loaders  
-- AV evasion experiments  
-- Malware behavior analysis  
-- Learning purposes
+This repository provides ready-to-use MSFvenom shellcode for common Windows payloads, such as displaying a MessageBox or launching `calc.exe`.  
+It is intended for testing, research, and education in exploit development or shellcode injection.
 
-**Included examples:**
-- Show MessageBox (Windows)  
-- Launch `calc.exe` / `notepad.exe`  
-- Spawn `cmd.exe`  
-- Basic `exec` payloads (Linux)
+---
 
-**Features:**
-- Clean and minimal  
-- No staged payloads or reverse shells  
-- MSFvenom command provided for each  
-- Categorized by OS and architecture  
-- Plug-and-play compatible
+## 📦 Included Shellcode
 
-**Disclaimer:**  
-For **educational and testing purposes only**. Do not use in unauthorized environments.
+### ✅ MessageBox (x86 / x64)
+- Displays a simple Windows MessageBox with custom text.
+- Generated with MSFvenom using `windows/messagebox`
+
+### ✅ Exec Calc (x86 / x64)
+- Executes `calc.exe` on the target system.
+- Generated using `windows/exec CMD=calc.exe`
+
+---
+
+## 🛠 Usage
+
+These shellcodes can be used for:
+
+- Learning shellcode structure
+- Practicing injection techniques (C, C++, Python)
+- Malware analysis training
+- Shellcode AV evasion experiments
+
+---
+
+## 💻 Example Output
+
+```msfvenom -p windows/messagebox TEXT="Hello from shellcode" -f c msfvenom -p windows/exec CMD=calc.exe -f c```
+
+---
+
+## 📂 Shellcode Formats
+
+- C-style arrays
+- Raw binary
+- Python bytes
+- Assembly representation
+
+---
+
+## 🔍 Keywords for Search Engines
+
+msfvenom messagebox shellcode, windows shellcode example, calc shellcode msfvenom, windows exec shellcode, generate shellcode with metasploit, shellcode to open messagebox, msfvenom calc payload, metasploit windows examples
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is for **educational and research** purposes only.  
+Do not use these techniques on systems without **explicit permission**.
