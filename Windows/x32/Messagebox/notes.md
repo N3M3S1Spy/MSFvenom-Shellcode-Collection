@@ -1,0 +1,19 @@
+# Shellcode: MessageBox Hello World
+
+**Platform:** Windows  
+**Architecture:** x86  
+**Payload:** windows/messagebox  
+**Title:** Hello  
+**Text:** This is a test from shellcode.  
+**Format:** raw (binary) + hex (C-style)  
+**Generated with:** MSFvenom
+
+## Usage
+
+This shellcode displays a simple message box when executed in a Windows x86 process context.
+
+## Notes
+
+- No network connection or external dependencies.
+- Good for AV evasion and shellcode loader testing.
+- Runs without requiring elevated privileges.
