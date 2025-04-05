@@ -10,7 +10,7 @@
 
 ## Usage
 
-This shellcode displays a simple message box when executed in a Windows x86 process context.
+This shellcode displays a simple message box when executed in a Windows x64 process context.
 
 ## Notes
 
