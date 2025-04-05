@@ -1,10 +1,10 @@
 # Shellcode: MessageBox PWND
 
 **Platform:** Windows  
-**Architecture:** x64
-**Payload:** windows/x64/messagebox  
-**Title:** PWND
-**Text:** PWND  
+**Architecture:** x64  
+**Payload:** windows/x64/messagebox   
+**Title:** PWND  
+**Text:** PWND    
 **Format:** raw (binary) + hex (C-style)  
 **Generated with:** MSFvenom
 
