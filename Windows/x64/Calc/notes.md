@@ -1,8 +1,8 @@
 # Shellcode: Launch calc.exe
 
 **Platform:** Windows  
-**Architecture:** x86  
-**Payload:** windows/exec  
+**Architecture:** x64  
+**Payload:** windows/x64/exec  
 **Command:** calc.exe  
 **Format:** raw (binary) + hex (C-style)  
 **Generated with:** MSFvenom
@@ -14,7 +14,7 @@ Useful for testing code injection or verifying shellcode execution.
 
 ## Usage
 
-Execute this shellcode in a 32-bit Windows process context.  
+Execute this shellcode in a 64-bit Windows process context.  
 It will spawn a calculator window upon successful execution.
 
 ## Notes
