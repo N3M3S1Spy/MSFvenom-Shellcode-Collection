@@ -22,7 +22,7 @@ It is intended for testing, research, and education in exploit development or sh
 These shellcodes can be used for:
 
 - Learning shellcode structure
-- Practicing injection techniques (C, C++, Python)
+- Practicing injection techniques (C, C++)
 - Malware analysis training
 - Shellcode AV evasion experiments
 
@@ -38,8 +38,6 @@ These shellcodes can be used for:
 
 - C-style arrays
 - Raw binary
-- Python bytes
-- Assembly representation
 
 ---
 
